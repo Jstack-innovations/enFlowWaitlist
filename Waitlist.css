@@ -1,0 +1,54 @@
+/* IMPORTING FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+body {
+    font-family: 'Fustat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* START LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 5px 0;
+}
+.logo-name {
+    display: flex;
+    justify-content: center;
+   position: relative;
+   bottom: 60px;
+   font-size: 20px;
+   font-weight: 900;
+}
+/* END LOGO */
+
+/* START hERO SECTION */
+.hero-section {
+    margin: 0;
+}
+ .bord {
+   background-color:#f5f7fa;
+   padding: 7px 10px;
+   margin: 0 490px;
+   border-radius: 30px;
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   color: #6086da;
+   border: 1px solid #6086da;
+} 
+.hero-section h1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 74px;
+   text-align: center;
+   font-weight: 500;
+   line-height: 120%;
+}
+/* END HERO SECTION */
